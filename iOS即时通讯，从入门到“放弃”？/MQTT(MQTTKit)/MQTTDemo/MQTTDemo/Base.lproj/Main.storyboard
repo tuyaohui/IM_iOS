@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3yc-ug-BVR">
+                                <rect key="frame" x="16" y="28" width="343" height="187"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tTQ-kZ-q83">
+                                        <rect key="frame" x="107" y="45" width="129" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="OOU-oW-bJu"/>
+                                            <constraint firstAttribute="width" constant="129" id="v91-9G-PKA"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvj-0U-Dyi">
+                                        <rect key="frame" x="122" y="111" width="98" height="30"/>
+                                        <color key="backgroundColor" red="0.46242959389999999" green="1" blue="0.45281438280000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="98" id="4bM-Os-mhD"/>
+                                            <constraint firstAttribute="height" constant="30" id="rPZ-TB-Ouh"/>
+                                        </constraints>
+                                        <state key="normal" title="发送"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.67573475869999999" green="1" blue="0.93506905819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Xvj-0U-Dyi" firstAttribute="centerX" secondItem="3yc-ug-BVR" secondAttribute="centerX" id="2oS-Gv-Fhz"/>
+                                    <constraint firstItem="Xvj-0U-Dyi" firstAttribute="top" secondItem="tTQ-kZ-q83" secondAttribute="bottom" constant="36" id="6HX-4Q-sZO"/>
+                                    <constraint firstItem="tTQ-kZ-q83" firstAttribute="centerX" secondItem="3yc-ug-BVR" secondAttribute="centerX" id="S8P-vd-9zm"/>
+                                    <constraint firstAttribute="height" constant="187" id="f18-Xo-pmA"/>
+                                    <constraint firstItem="tTQ-kZ-q83" firstAttribute="top" secondItem="3yc-ug-BVR" secondAttribute="top" constant="45" id="ykb-Ot-0ZS"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbQ-PI-c5h">
+                                <rect key="frame" x="138" y="257" width="98" height="30"/>
+                                <color key="backgroundColor" red="0.46242959389999999" green="1" blue="0.45281438280000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fak-xh-2lw"/>
+                                    <constraint firstAttribute="width" constant="98" id="ztR-R1-Pta"/>
+                                </constraints>
+                                <state key="normal" title="连接"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2X-li-QR1">
+                                <rect key="frame" x="139" y="301" width="98" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.35477680109999998" blue="0.40762583079999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="XpU-aJ-cXA"/>
+                                    <constraint firstAttribute="height" constant="30" id="csL-VU-Inl"/>
+                                </constraints>
+                                <state key="normal" title="断开"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CbQ-PI-c5h" firstAttribute="top" secondItem="3yc-ug-BVR" secondAttribute="bottom" constant="42" id="DYh-MN-p5s"/>
+                            <constraint firstItem="Q2X-li-QR1" firstAttribute="top" secondItem="CbQ-PI-c5h" secondAttribute="bottom" constant="14" id="FOz-bC-8ny"/>
+                            <constraint firstItem="3yc-ug-BVR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Roy-kE-dv2"/>
+                            <constraint firstItem="Q2X-li-QR1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ueq-78-QFy"/>
+                            <constraint firstItem="3yc-ug-BVR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Yf3-Lg-Umw"/>
+                            <constraint firstItem="3yc-ug-BVR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="v6K-pc-xaT"/>
+                            <constraint firstItem="CbQ-PI-c5h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yur-Hg-0nr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="connectBtn" destination="CbQ-PI-c5h" id="HlJ-8B-sS3"/>
+                        <outlet property="disConnectBtn" destination="Q2X-li-QR1" id="6O5-dB-lb7"/>
+                        <outlet property="sendBtn" destination="Xvj-0U-Dyi" id="QKI-pN-9tv"/>
+                        <outlet property="sendFiled" destination="tTQ-kZ-q83" id="nsN-q4-1eq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,20 @@
+language: node_js
+sudo: false
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
+node_js:
+  - "0.10"
+  - "0.12"
+  - "4"
+  - "5"
+install:
+  - npm install
+  - npm install hiredis
+after_success:
+  - CODECLIMATE_REPO_TOKEN=c60100f656e32c1003fec9b96c4aba47fd4c190069931763ac1879aa2ef28398 node ./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info

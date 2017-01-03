@@ -1,0 +1,4 @@
+*~
+*.rdb
+db
+redis.conf

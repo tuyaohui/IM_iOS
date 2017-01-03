@@ -1,0 +1,7 @@
+--reporter dot
+--require test/common
+--ui bdd
+--growl
+--colors
+--check-leaks
+--globals Prommise

@@ -1,0 +1,16 @@
+{
+  "node": true,
+  "indent": 2,
+  "expr": true,
+  "globals": {
+    "it": false,
+    "afterEach": false,
+    "beforeEach": false,
+    "describe": false,
+    "mosca": false,
+    "expect": false,
+    "before": false,
+    "globalLogger": false,
+    "sinon": false
+  }
+}

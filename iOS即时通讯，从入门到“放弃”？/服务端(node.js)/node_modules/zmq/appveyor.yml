@@ -1,0 +1,24 @@
+environment:
+  matrix:
+    - nodejs_version: "0.10"
+    - nodejs_version: "0.12"
+    - nodejs_version: "2"
+
+#platform:
+#  - x86
+#  - x64
+
+install:
+  - ps: Install-Product node $env:nodejs_version #$env:platform
+  - npm install
+
+test_script:
+  - node --version
+  - npm --version
+  - npm test
+
+build: off
+
+matrix:
+  allow_failures:
+    - nodejs_version: "2"

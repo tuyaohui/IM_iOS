@@ -1,0 +1,1 @@
+describeAscoltatore("decorator");

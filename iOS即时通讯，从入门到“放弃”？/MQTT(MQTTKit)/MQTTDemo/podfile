@@ -1,0 +1,7 @@
+platform :ios,"7.0"
+
+target "MQTTDemo" do
+pod 'MQTTKit'
+
+end
+

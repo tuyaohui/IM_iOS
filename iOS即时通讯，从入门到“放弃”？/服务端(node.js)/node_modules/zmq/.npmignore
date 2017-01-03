@@ -1,0 +1,14 @@
+*.swp
+*.swo
+*.o
+build
+*.lock*
+binding.node
+examples/stress-test-client
+node_modules
+Makefile.gyp
+binding.Makefile
+binding.target.gyp.mk
+npm-debug.log
+gyp-mac-tool
+out/

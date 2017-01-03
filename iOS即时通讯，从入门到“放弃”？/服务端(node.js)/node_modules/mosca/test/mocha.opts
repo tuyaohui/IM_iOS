@@ -1,0 +1,8 @@
+--reporter dot
+--require test/common
+--ui bdd
+--growl
+--colors
+--check-leaks
+--timeout 5000
+--globals Promise

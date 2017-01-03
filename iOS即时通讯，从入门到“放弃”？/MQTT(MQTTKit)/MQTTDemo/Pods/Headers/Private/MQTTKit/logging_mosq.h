@@ -1,0 +1,1 @@
+../../../MQTTKit/libmosquitto/logging_mosq.h

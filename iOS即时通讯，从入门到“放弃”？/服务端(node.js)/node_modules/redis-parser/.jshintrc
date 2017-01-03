@@ -1,0 +1,20 @@
+{
+    "eqeqeq": true, // Prohibits the use of == and != in favor of === and !==
+    "noarg": true, // Prohibit use of `arguments.caller` and `arguments.callee`
+    "undef": true, // Require all non-global variables be declared before they are used.
+    "unused": "vars", // Warn unused variables, but not unused params
+    "strict": true, // Require `use strict` pragma in every file.
+    "nonbsp": true, // don't allow non utf-8 pages to break
+    "forin": true, // don't allow not filtert for in loops
+    "freeze": true, // prohibit overwriting prototypes of native objects
+    "maxdepth": 4,
+    "latedef": true,
+    "maxparams": 3,
+
+    // Environment options
+    "node": true, // Enable globals available when code is running inside of the NodeJS runtime environment.
+    "mocha": true,
+
+    // Relaxing options
+    "boss": true // Accept statements like `while (key = keys.pop()) {}`
+}

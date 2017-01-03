@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A723BA51E13AE6200D6DBFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BA41E13AE6200D6DBFD /* main.m */; };
+		5A723BA81E13AE6200D6DBFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BA71E13AE6200D6DBFD /* AppDelegate.m */; };
+		5A723BAB1E13AE6200D6DBFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BAA1E13AE6200D6DBFD /* ViewController.m */; };
+		5A723BAE1E13AE6200D6DBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A723BAC1E13AE6200D6DBFD /* Main.storyboard */; };
+		5A723BB01E13AE6200D6DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A723BAF1E13AE6200D6DBFD /* Assets.xcassets */; };
+		5A723BB31E13AE6200D6DBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A723BB11E13AE6200D6DBFD /* LaunchScreen.storyboard */; };
+		5A723BBE1E13AE6200D6DBFD /* WebScoketTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BBD1E13AE6200D6DBFD /* WebScoketTestTests.m */; };
+		5A723BC91E13AE6200D6DBFD /* WebScoketTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BC81E13AE6200D6DBFD /* WebScoketTestUITests.m */; };
+		5A723BD81E149C0000D6DBFD /* TYHSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BD71E149C0000D6DBFD /* TYHSocketManager.m */; };
+		75DCFD890142D84AD4805B39 /* libPods-WebScoketTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE95D50D95824EB047CDF52 /* libPods-WebScoketTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A723BBA1E13AE6200D6DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A723B981E13AE6200D6DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A723B9F1E13AE6200D6DBFD;
+			remoteInfo = WebScoketTest;
+		};
+		5A723BC51E13AE6200D6DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A723B981E13AE6200D6DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A723B9F1E13AE6200D6DBFD;
+			remoteInfo = WebScoketTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417DF9FFD7DF1F6D0E597198 /* Pods-WebScoketTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebScoketTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebScoketTest/Pods-WebScoketTest.debug.xcconfig"; sourceTree = "<group>"; };
+		549F10D942E722C92D0CC0E0 /* Pods-WebScoketTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebScoketTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebScoketTest/Pods-WebScoketTest.release.xcconfig"; sourceTree = "<group>"; };
+		5A723BA01E13AE6200D6DBFD /* WebScoketTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebScoketTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A723BA41E13AE6200D6DBFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A723BA61E13AE6200D6DBFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A723BA71E13AE6200D6DBFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A723BA91E13AE6200D6DBFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A723BAA1E13AE6200D6DBFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A723BAD1E13AE6200D6DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A723BAF1E13AE6200D6DBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A723BB21E13AE6200D6DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A723BB41E13AE6200D6DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A723BB91E13AE6200D6DBFD /* WebScoketTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebScoketTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A723BBD1E13AE6200D6DBFD /* WebScoketTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebScoketTestTests.m; sourceTree = "<group>"; };
+		5A723BBF1E13AE6200D6DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A723BC41E13AE6200D6DBFD /* WebScoketTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebScoketTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A723BC81E13AE6200D6DBFD /* WebScoketTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebScoketTestUITests.m; sourceTree = "<group>"; };
+		5A723BCA1E13AE6200D6DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A723BD61E149C0000D6DBFD /* TYHSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHSocketManager.h; sourceTree = "<group>"; };
+		5A723BD71E149C0000D6DBFD /* TYHSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHSocketManager.m; sourceTree = "<group>"; };
+		9EE95D50D95824EB047CDF52 /* libPods-WebScoketTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebScoketTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A723B9D1E13AE6200D6DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DCFD890142D84AD4805B39 /* libPods-WebScoketTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BB61E13AE6200D6DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BC11E13AE6200D6DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A723B971E13AE6200D6DBFD = {
+			isa = PBXGroup;
+			children = (
+				5A723BA21E13AE6200D6DBFD /* WebScoketTest */,
+				5A723BBC1E13AE6200D6DBFD /* WebScoketTestTests */,
+				5A723BC71E13AE6200D6DBFD /* WebScoketTestUITests */,
+				5A723BA11E13AE6200D6DBFD /* Products */,
+				CFCB997E99122997799FB743 /* Pods */,
+				692EE4858C882D7E671AF8D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A723BA11E13AE6200D6DBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BA01E13AE6200D6DBFD /* WebScoketTest.app */,
+				5A723BB91E13AE6200D6DBFD /* WebScoketTestTests.xctest */,
+				5A723BC41E13AE6200D6DBFD /* WebScoketTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A723BA21E13AE6200D6DBFD /* WebScoketTest */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BA61E13AE6200D6DBFD /* AppDelegate.h */,
+				5A723BA71E13AE6200D6DBFD /* AppDelegate.m */,
+				5A723BA91E13AE6200D6DBFD /* ViewController.h */,
+				5A723BAA1E13AE6200D6DBFD /* ViewController.m */,
+				5A723BD61E149C0000D6DBFD /* TYHSocketManager.h */,
+				5A723BD71E149C0000D6DBFD /* TYHSocketManager.m */,
+				5A723BAC1E13AE6200D6DBFD /* Main.storyboard */,
+				5A723BAF1E13AE6200D6DBFD /* Assets.xcassets */,
+				5A723BB11E13AE6200D6DBFD /* LaunchScreen.storyboard */,
+				5A723BB41E13AE6200D6DBFD /* Info.plist */,
+				5A723BA31E13AE6200D6DBFD /* Supporting Files */,
+			);
+			path = WebScoketTest;
+			sourceTree = "<group>";
+		};
+		5A723BA31E13AE6200D6DBFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BA41E13AE6200D6DBFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A723BBC1E13AE6200D6DBFD /* WebScoketTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BBD1E13AE6200D6DBFD /* WebScoketTestTests.m */,
+				5A723BBF1E13AE6200D6DBFD /* Info.plist */,
+			);
+			path = WebScoketTestTests;
+			sourceTree = "<group>";
+		};
+		5A723BC71E13AE6200D6DBFD /* WebScoketTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BC81E13AE6200D6DBFD /* WebScoketTestUITests.m */,
+				5A723BCA1E13AE6200D6DBFD /* Info.plist */,
+			);
+			path = WebScoketTestUITests;
+			sourceTree = "<group>";
+		};
+		692EE4858C882D7E671AF8D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE95D50D95824EB047CDF52 /* libPods-WebScoketTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCB997E99122997799FB743 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				417DF9FFD7DF1F6D0E597198 /* Pods-WebScoketTest.debug.xcconfig */,
+				549F10D942E722C92D0CC0E0 /* Pods-WebScoketTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A723B9F1E13AE6200D6DBFD /* WebScoketTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A723BCD1E13AE6200D6DBFD /* Build configuration list for PBXNativeTarget "WebScoketTest" */;
+			buildPhases = (
+				E742E0FE15B1BED10C9B9CE8 /* [CP] Check Pods Manifest.lock */,
+				5A723B9C1E13AE6200D6DBFD /* Sources */,
+				5A723B9D1E13AE6200D6DBFD /* Frameworks */,
+				5A723B9E1E13AE6200D6DBFD /* Resources */,
+				6E15DF11491A449FB2B169D8 /* [CP] Embed Pods Frameworks */,
+				8FAF8382A99000588AB74CB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebScoketTest;
+			productName = WebScoketTest;
+			productReference = 5A723BA01E13AE6200D6DBFD /* WebScoketTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A723BB81E13AE6200D6DBFD /* WebScoketTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A723BD01E13AE6200D6DBFD /* Build configuration list for PBXNativeTarget "WebScoketTestTests" */;
+			buildPhases = (
+				5A723BB51E13AE6200D6DBFD /* Sources */,
+				5A723BB61E13AE6200D6DBFD /* Frameworks */,
+				5A723BB71E13AE6200D6DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A723BBB1E13AE6200D6DBFD /* PBXTargetDependency */,
+			);
+			name = WebScoketTestTests;
+			productName = WebScoketTestTests;
+			productReference = 5A723BB91E13AE6200D6DBFD /* WebScoketTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A723BC31E13AE6200D6DBFD /* WebScoketTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A723BD31E13AE6200D6DBFD /* Build configuration list for PBXNativeTarget "WebScoketTestUITests" */;
+			buildPhases = (
+				5A723BC01E13AE6200D6DBFD /* Sources */,
+				5A723BC11E13AE6200D6DBFD /* Frameworks */,
+				5A723BC21E13AE6200D6DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A723BC61E13AE6200D6DBFD /* PBXTargetDependency */,
+			);
+			name = WebScoketTestUITests;
+			productName = WebScoketTestUITests;
+			productReference = 5A723BC41E13AE6200D6DBFD /* WebScoketTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A723B981E13AE6200D6DBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "涂耀辉";
+				TargetAttributes = {
+					5A723B9F1E13AE6200D6DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5A723BB81E13AE6200D6DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A723B9F1E13AE6200D6DBFD;
+					};
+					5A723BC31E13AE6200D6DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A723B9F1E13AE6200D6DBFD;
+					};
+				};
+			};
+			buildConfigurationList = 5A723B9B1E13AE6200D6DBFD /* Build configuration list for PBXProject "WebScoketTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A723B971E13AE6200D6DBFD;
+			productRefGroup = 5A723BA11E13AE6200D6DBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A723B9F1E13AE6200D6DBFD /* WebScoketTest */,
+				5A723BB81E13AE6200D6DBFD /* WebScoketTestTests */,
+				5A723BC31E13AE6200D6DBFD /* WebScoketTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A723B9E1E13AE6200D6DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A723BB31E13AE6200D6DBFD /* LaunchScreen.storyboard in Resources */,
+				5A723BB01E13AE6200D6DBFD /* Assets.xcassets in Resources */,
+				5A723BAE1E13AE6200D6DBFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BB71E13AE6200D6DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BC21E13AE6200D6DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E15DF11491A449FB2B169D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebScoketTest/Pods-WebScoketTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FAF8382A99000588AB74CB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebScoketTest/Pods-WebScoketTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E742E0FE15B1BED10C9B9CE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A723B9C1E13AE6200D6DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A723BAB1E13AE6200D6DBFD /* ViewController.m in Sources */,
+				5A723BA81E13AE6200D6DBFD /* AppDelegate.m in Sources */,
+				5A723BD81E149C0000D6DBFD /* TYHSocketManager.m in Sources */,
+				5A723BA51E13AE6200D6DBFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BB51E13AE6200D6DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A723BBE1E13AE6200D6DBFD /* WebScoketTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BC01E13AE6200D6DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A723BC91E13AE6200D6DBFD /* WebScoketTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A723BBB1E13AE6200D6DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A723B9F1E13AE6200D6DBFD /* WebScoketTest */;
+			targetProxy = 5A723BBA1E13AE6200D6DBFD /* PBXContainerItemProxy */;
+		};
+		5A723BC61E13AE6200D6DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A723B9F1E13AE6200D6DBFD /* WebScoketTest */;
+			targetProxy = 5A723BC51E13AE6200D6DBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A723BAC1E13AE6200D6DBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A723BAD1E13AE6200D6DBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A723BB11E13AE6200D6DBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A723BB21E13AE6200D6DBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A723BCB1E13AE6200D6DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A723BCC1E13AE6200D6DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A723BCE1E13AE6200D6DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417DF9FFD7DF1F6D0E597198 /* Pods-WebScoketTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebScoketTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.WebScoketTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A723BCF1E13AE6200D6DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549F10D942E722C92D0CC0E0 /* Pods-WebScoketTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebScoketTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.WebScoketTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A723BD11E13AE6200D6DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WebScoketTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.WebScoketTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebScoketTest.app/WebScoketTest";
+			};
+			name = Debug;
+		};
+		5A723BD21E13AE6200D6DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WebScoketTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.WebScoketTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebScoketTest.app/WebScoketTest";
+			};
+			name = Release;
+		};
+		5A723BD41E13AE6200D6DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WebScoketTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.WebScoketTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WebScoketTest;
+			};
+			name = Debug;
+		};
+		5A723BD51E13AE6200D6DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WebScoketTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.WebScoketTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WebScoketTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A723B9B1E13AE6200D6DBFD /* Build configuration list for PBXProject "WebScoketTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A723BCB1E13AE6200D6DBFD /* Debug */,
+				5A723BCC1E13AE6200D6DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A723BCD1E13AE6200D6DBFD /* Build configuration list for PBXNativeTarget "WebScoketTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A723BCE1E13AE6200D6DBFD /* Debug */,
+				5A723BCF1E13AE6200D6DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A723BD01E13AE6200D6DBFD /* Build configuration list for PBXNativeTarget "WebScoketTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A723BD11E13AE6200D6DBFD /* Debug */,
+				5A723BD21E13AE6200D6DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A723BD31E13AE6200D6DBFD /* Build configuration list for PBXNativeTarget "WebScoketTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A723BD41E13AE6200D6DBFD /* Debug */,
+				5A723BD51E13AE6200D6DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A723B981E13AE6200D6DBFD /* Project object */;
+}

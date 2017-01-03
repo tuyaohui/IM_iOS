@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A723BE71E15F75700D6DBFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BE61E15F75700D6DBFD /* main.m */; };
+		5A723BEA1E15F75700D6DBFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BE91E15F75700D6DBFD /* AppDelegate.m */; };
+		5A723BED1E15F75700D6DBFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BEC1E15F75700D6DBFD /* ViewController.m */; };
+		5A723BF01E15F75700D6DBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A723BEE1E15F75700D6DBFD /* Main.storyboard */; };
+		5A723BF21E15F75700D6DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A723BF11E15F75700D6DBFD /* Assets.xcassets */; };
+		5A723BF51E15F75700D6DBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A723BF31E15F75700D6DBFD /* LaunchScreen.storyboard */; };
+		5A723C001E15F75800D6DBFD /* CScoketClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723BFF1E15F75800D6DBFD /* CScoketClientTests.m */; };
+		5A723C0B1E15F75800D6DBFD /* CScoketClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723C0A1E15F75800D6DBFD /* CScoketClientUITests.m */; };
+		5A723C1D1E15F8B900D6DBFD /* TYHSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A723C1C1E15F8B900D6DBFD /* TYHSocketManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A723BFC1E15F75800D6DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A723BDA1E15F75700D6DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A723BE11E15F75700D6DBFD;
+			remoteInfo = CScoketClient;
+		};
+		5A723C071E15F75800D6DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A723BDA1E15F75700D6DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A723BE11E15F75700D6DBFD;
+			remoteInfo = CScoketClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A723BE21E15F75700D6DBFD /* CScoketClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CScoketClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A723BE61E15F75700D6DBFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A723BE81E15F75700D6DBFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A723BE91E15F75700D6DBFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A723BEB1E15F75700D6DBFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A723BEC1E15F75700D6DBFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A723BEF1E15F75700D6DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A723BF11E15F75700D6DBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A723BF41E15F75700D6DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A723BF61E15F75700D6DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A723BFB1E15F75800D6DBFD /* CScoketClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CScoketClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A723BFF1E15F75800D6DBFD /* CScoketClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CScoketClientTests.m; sourceTree = "<group>"; };
+		5A723C011E15F75800D6DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A723C061E15F75800D6DBFD /* CScoketClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CScoketClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A723C0A1E15F75800D6DBFD /* CScoketClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CScoketClientUITests.m; sourceTree = "<group>"; };
+		5A723C0C1E15F75800D6DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A723C1B1E15F8B900D6DBFD /* TYHSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHSocketManager.h; sourceTree = "<group>"; };
+		5A723C1C1E15F8B900D6DBFD /* TYHSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHSocketManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A723BDF1E15F75700D6DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BF81E15F75800D6DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723C031E15F75800D6DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A723BD91E15F75700D6DBFD = {
+			isa = PBXGroup;
+			children = (
+				5A723BE41E15F75700D6DBFD /* CScoketClient */,
+				5A723BFE1E15F75800D6DBFD /* CScoketClientTests */,
+				5A723C091E15F75800D6DBFD /* CScoketClientUITests */,
+				5A723BE31E15F75700D6DBFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A723BE31E15F75700D6DBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BE21E15F75700D6DBFD /* CScoketClient.app */,
+				5A723BFB1E15F75800D6DBFD /* CScoketClientTests.xctest */,
+				5A723C061E15F75800D6DBFD /* CScoketClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A723BE41E15F75700D6DBFD /* CScoketClient */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BE81E15F75700D6DBFD /* AppDelegate.h */,
+				5A723BE91E15F75700D6DBFD /* AppDelegate.m */,
+				5A723BEB1E15F75700D6DBFD /* ViewController.h */,
+				5A723BEC1E15F75700D6DBFD /* ViewController.m */,
+				5A723BEE1E15F75700D6DBFD /* Main.storyboard */,
+				5A723C1B1E15F8B900D6DBFD /* TYHSocketManager.h */,
+				5A723C1C1E15F8B900D6DBFD /* TYHSocketManager.m */,
+				5A723BF11E15F75700D6DBFD /* Assets.xcassets */,
+				5A723BF31E15F75700D6DBFD /* LaunchScreen.storyboard */,
+				5A723BF61E15F75700D6DBFD /* Info.plist */,
+				5A723BE51E15F75700D6DBFD /* Supporting Files */,
+			);
+			path = CScoketClient;
+			sourceTree = "<group>";
+		};
+		5A723BE51E15F75700D6DBFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BE61E15F75700D6DBFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A723BFE1E15F75800D6DBFD /* CScoketClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A723BFF1E15F75800D6DBFD /* CScoketClientTests.m */,
+				5A723C011E15F75800D6DBFD /* Info.plist */,
+			);
+			path = CScoketClientTests;
+			sourceTree = "<group>";
+		};
+		5A723C091E15F75800D6DBFD /* CScoketClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A723C0A1E15F75800D6DBFD /* CScoketClientUITests.m */,
+				5A723C0C1E15F75800D6DBFD /* Info.plist */,
+			);
+			path = CScoketClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A723BE11E15F75700D6DBFD /* CScoketClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A723C0F1E15F75800D6DBFD /* Build configuration list for PBXNativeTarget "CScoketClient" */;
+			buildPhases = (
+				5A723BDE1E15F75700D6DBFD /* Sources */,
+				5A723BDF1E15F75700D6DBFD /* Frameworks */,
+				5A723BE01E15F75700D6DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CScoketClient;
+			productName = CScoketClient;
+			productReference = 5A723BE21E15F75700D6DBFD /* CScoketClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A723BFA1E15F75800D6DBFD /* CScoketClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A723C121E15F75800D6DBFD /* Build configuration list for PBXNativeTarget "CScoketClientTests" */;
+			buildPhases = (
+				5A723BF71E15F75800D6DBFD /* Sources */,
+				5A723BF81E15F75800D6DBFD /* Frameworks */,
+				5A723BF91E15F75800D6DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A723BFD1E15F75800D6DBFD /* PBXTargetDependency */,
+			);
+			name = CScoketClientTests;
+			productName = CScoketClientTests;
+			productReference = 5A723BFB1E15F75800D6DBFD /* CScoketClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A723C051E15F75800D6DBFD /* CScoketClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A723C151E15F75800D6DBFD /* Build configuration list for PBXNativeTarget "CScoketClientUITests" */;
+			buildPhases = (
+				5A723C021E15F75800D6DBFD /* Sources */,
+				5A723C031E15F75800D6DBFD /* Frameworks */,
+				5A723C041E15F75800D6DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A723C081E15F75800D6DBFD /* PBXTargetDependency */,
+			);
+			name = CScoketClientUITests;
+			productName = CScoketClientUITests;
+			productReference = 5A723C061E15F75800D6DBFD /* CScoketClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A723BDA1E15F75700D6DBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "涂耀辉";
+				TargetAttributes = {
+					5A723BE11E15F75700D6DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5A723BFA1E15F75800D6DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A723BE11E15F75700D6DBFD;
+					};
+					5A723C051E15F75800D6DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A723BE11E15F75700D6DBFD;
+					};
+				};
+			};
+			buildConfigurationList = 5A723BDD1E15F75700D6DBFD /* Build configuration list for PBXProject "CScoketClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A723BD91E15F75700D6DBFD;
+			productRefGroup = 5A723BE31E15F75700D6DBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A723BE11E15F75700D6DBFD /* CScoketClient */,
+				5A723BFA1E15F75800D6DBFD /* CScoketClientTests */,
+				5A723C051E15F75800D6DBFD /* CScoketClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A723BE01E15F75700D6DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A723BF51E15F75700D6DBFD /* LaunchScreen.storyboard in Resources */,
+				5A723BF21E15F75700D6DBFD /* Assets.xcassets in Resources */,
+				5A723BF01E15F75700D6DBFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BF91E15F75800D6DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723C041E15F75800D6DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A723BDE1E15F75700D6DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A723BED1E15F75700D6DBFD /* ViewController.m in Sources */,
+				5A723BEA1E15F75700D6DBFD /* AppDelegate.m in Sources */,
+				5A723C1D1E15F8B900D6DBFD /* TYHSocketManager.m in Sources */,
+				5A723BE71E15F75700D6DBFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723BF71E15F75800D6DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A723C001E15F75800D6DBFD /* CScoketClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A723C021E15F75800D6DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A723C0B1E15F75800D6DBFD /* CScoketClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A723BFD1E15F75800D6DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A723BE11E15F75700D6DBFD /* CScoketClient */;
+			targetProxy = 5A723BFC1E15F75800D6DBFD /* PBXContainerItemProxy */;
+		};
+		5A723C081E15F75800D6DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A723BE11E15F75700D6DBFD /* CScoketClient */;
+			targetProxy = 5A723C071E15F75800D6DBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A723BEE1E15F75700D6DBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A723BEF1E15F75700D6DBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A723BF31E15F75700D6DBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A723BF41E15F75700D6DBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A723C0D1E15F75800D6DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A723C0E1E15F75800D6DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A723C101E15F75800D6DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CScoketClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.CScoketClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A723C111E15F75800D6DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CScoketClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.CScoketClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A723C131E15F75800D6DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CScoketClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.CScoketClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CScoketClient.app/CScoketClient";
+			};
+			name = Debug;
+		};
+		5A723C141E15F75800D6DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CScoketClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.CScoketClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CScoketClient.app/CScoketClient";
+			};
+			name = Release;
+		};
+		5A723C161E15F75800D6DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CScoketClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.CScoketClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CScoketClient;
+			};
+			name = Debug;
+		};
+		5A723C171E15F75800D6DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CScoketClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.CScoketClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CScoketClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A723BDD1E15F75700D6DBFD /* Build configuration list for PBXProject "CScoketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A723C0D1E15F75800D6DBFD /* Debug */,
+				5A723C0E1E15F75800D6DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A723C0F1E15F75800D6DBFD /* Build configuration list for PBXNativeTarget "CScoketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A723C101E15F75800D6DBFD /* Debug */,
+				5A723C111E15F75800D6DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A723C121E15F75800D6DBFD /* Build configuration list for PBXNativeTarget "CScoketClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A723C131E15F75800D6DBFD /* Debug */,
+				5A723C141E15F75800D6DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A723C151E15F75800D6DBFD /* Build configuration list for PBXNativeTarget "CScoketClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A723C161E15F75800D6DBFD /* Debug */,
+				5A723C171E15F75800D6DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A723BDA1E15F75700D6DBFD /* Project object */;
+}

@@ -1,0 +1,12 @@
+{
+  "node": true,
+  "indent": 2,
+  "expr": true,
+  "globals": {
+    "it": false,
+    "afterEach": false,
+    "beforeEach": false,
+    "describe": false,
+    "setImmediate": false
+  }
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wPw-cN-1kl"/>
+                        <viewControllerLayoutGuide type="bottom" id="ncN-Vf-b1Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aQo-nW-sCY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElF-mK-dFZ">
+                                <rect key="frame" x="138" y="231" width="98" height="30"/>
+                                <color key="backgroundColor" red="0.46242959389999999" green="1" blue="0.45281438280000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="284-rR-msS"/>
+                                    <constraint firstAttribute="width" constant="98" id="YWz-ZJ-FLX"/>
+                                </constraints>
+                                <state key="normal" title="连接"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGI-7D-Cx4">
+                                <rect key="frame" x="139" y="275" width="98" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.35477680109999998" blue="0.40762583079999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="LPe-zy-neO"/>
+                                    <constraint firstAttribute="height" constant="30" id="eTo-oW-83x"/>
+                                </constraints>
+                                <state key="normal" title="断开"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UPT-hv-ZTQ">
+                                <rect key="frame" x="16" y="20" width="343" height="187"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0b0-0a-5qL">
+                                        <rect key="frame" x="107" y="45" width="129" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="129" id="7EQ-SF-I8C"/>
+                                            <constraint firstAttribute="height" constant="30" id="u6a-NO-iLl"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xr2-yu-dY6">
+                                        <rect key="frame" x="122" y="111" width="98" height="30"/>
+                                        <color key="backgroundColor" red="0.46242959389999999" green="1" blue="0.45281438280000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="UQI-nD-gFB"/>
+                                            <constraint firstAttribute="width" constant="98" id="wEe-Nf-qpP"/>
+                                        </constraints>
+                                        <state key="normal" title="发送"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.67573475869999999" green="1" blue="0.93506905819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0b0-0a-5qL" firstAttribute="top" secondItem="UPT-hv-ZTQ" secondAttribute="top" constant="45" id="CR8-7P-cFl"/>
+                                    <constraint firstItem="Xr2-yu-dY6" firstAttribute="top" secondItem="0b0-0a-5qL" secondAttribute="bottom" constant="36" id="EGr-Bk-bSV"/>
+                                    <constraint firstItem="0b0-0a-5qL" firstAttribute="centerX" secondItem="UPT-hv-ZTQ" secondAttribute="centerX" id="IEj-pB-5w7"/>
+                                    <constraint firstItem="Xr2-yu-dY6" firstAttribute="centerX" secondItem="UPT-hv-ZTQ" secondAttribute="centerX" id="dU2-qP-OES"/>
+                                    <constraint firstAttribute="height" constant="187" id="kuS-GX-lCs"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdx-nQ-OrC">
+                                <rect key="frame" x="16" y="231" width="98" height="30"/>
+                                <color key="backgroundColor" red="0.46242959389999999" green="1" blue="0.45281438280000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HDe-uK-MG6"/>
+                                    <constraint firstAttribute="width" constant="98" id="LU2-wO-GEY"/>
+                                </constraints>
+                                <state key="normal" title="sendPing"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hGI-7D-Cx4" firstAttribute="centerX" secondItem="aQo-nW-sCY" secondAttribute="centerX" id="4P5-FY-cxr"/>
+                            <constraint firstItem="UPT-hv-ZTQ" firstAttribute="leading" secondItem="aQo-nW-sCY" secondAttribute="leadingMargin" id="Hvc-V6-Z3r"/>
+                            <constraint firstAttribute="trailing" secondItem="UPT-hv-ZTQ" secondAttribute="trailing" constant="16" id="ITb-fW-JEK"/>
+                            <constraint firstItem="Qdx-nQ-OrC" firstAttribute="top" secondItem="UPT-hv-ZTQ" secondAttribute="bottom" constant="24" id="Mfn-1I-cKz"/>
+                            <constraint firstItem="ElF-mK-dFZ" firstAttribute="centerX" secondItem="aQo-nW-sCY" secondAttribute="centerX" id="OJe-uI-79d"/>
+                            <constraint firstItem="hGI-7D-Cx4" firstAttribute="top" secondItem="ElF-mK-dFZ" secondAttribute="bottom" constant="14" id="Pi2-aV-kYs"/>
+                            <constraint firstItem="ElF-mK-dFZ" firstAttribute="top" secondItem="UPT-hv-ZTQ" secondAttribute="bottom" constant="24" id="RWE-GN-C3U"/>
+                            <constraint firstItem="UPT-hv-ZTQ" firstAttribute="leading" secondItem="aQo-nW-sCY" secondAttribute="leading" constant="16" id="UeT-F7-OGa"/>
+                            <constraint firstItem="Qdx-nQ-OrC" firstAttribute="leading" secondItem="aQo-nW-sCY" secondAttribute="leadingMargin" id="dTQ-T6-50l"/>
+                            <constraint firstItem="UPT-hv-ZTQ" firstAttribute="trailing" secondItem="aQo-nW-sCY" secondAttribute="trailingMargin" id="vvG-xH-O2e"/>
+                            <constraint firstItem="UPT-hv-ZTQ" firstAttribute="top" secondItem="wPw-cN-1kl" secondAttribute="bottom" id="yOp-VW-pFz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="connectBtn" destination="ElF-mK-dFZ" id="mcR-44-PBB"/>
+                        <outlet property="disConnectBtn" destination="hGI-7D-Cx4" id="l85-91-9yc"/>
+                        <outlet property="pingBtn" destination="Qdx-nQ-OrC" id="Htj-M2-kWz"/>
+                        <outlet property="sendBtn" destination="Xr2-yu-dY6" id="reA-CA-6Hk"/>
+                        <outlet property="sendFiled" destination="0b0-0a-5qL" id="h9Q-kd-aCM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
